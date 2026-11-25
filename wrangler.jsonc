@@ -1,0 +1,10 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "uteqgram",
+  "compatibility_date": "2026-11-16",
+  // Solo archivos estáticos: se publica la carpeta public/ tal cual
+  "assets": {
+    "directory": "./public"
+  }
+  // Se publica en https://uteqgram.scrip-dev.workers.dev
+}

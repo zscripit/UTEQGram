@@ -1,0 +1,26 @@
+{
+  "name": "UTEQGram",
+  "version": "1.0.0",
+  "description": "App sencilla parecida a Instagram",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.18.0",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "wrangler": "^4.162.0"
+  }
+}

@@ -1,0 +1,16 @@
+.text-center {
+    text-align: center;
+}
+
+.drawer-option {
+    padding: 16px;
+}
+/* La app usa el tema claro de MDL; sin esto, en navegadores con tema oscuro
+   el fondo queda negro y el texto negro no se lee */
+:root {
+    color-scheme: light;
+}
+
+body {
+    background-color: #fafafa;
+}
